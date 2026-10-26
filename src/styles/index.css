@@ -3,12 +3,25 @@
 /* dark: passa a depender da classe "dark" no <html>, não do sistema */
 @custom-variant dark (&:where(.dark, .dark *));
 
-html {
-  scroll-behavior: smooth;
+/* Fontes viram classes: font-sans (texto) e font-display (títulos) */
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
 }
 
-body {
-  @apply bg-white text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-200;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-zinc-50 font-sans text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-50;
+  }
+
+  /* Cor do texto selecionado */
+  ::selection {
+    @apply bg-lime-300 text-zinc-950 dark:bg-lime-400;
+  }
 }
 
 section[id] {
