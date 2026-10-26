@@ -1,9 +1,9 @@
-import Carousel from "./Carousel";
-import { stack } from "../data/portfolio";
-
-const Stack = () => (
-  <>
-  </>
-);
-
+const Stack = () => {
+    return ( 
+        <>
+            <h1>Stack</h1>
+        </>
+     );
+}
+ 
 export default Stack;

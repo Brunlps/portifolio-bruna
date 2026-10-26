@@ -1,9 +1,8 @@
-import { Outlet } from "react-router";
-import Sidebar from "../components/Sidebar";
+import Home from "../pages/Home";
 
 const PageLayout = () => (
   <>
-    <Sidebar />
+    <Home />
   </>
 );
 

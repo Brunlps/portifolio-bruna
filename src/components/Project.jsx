@@ -1,9 +1,9 @@
-import Carousel from "./Carousel";
-import { projects } from "../data/portfolio";
-
-const Project = () => (
-  <>
-  </>
-);
-
-export default Project;
+const Projeto = () => {
+    return ( 
+        <>
+            <h1>Projeto</h1>
+        </>
+     );
+}
+ 
+export default Projeto;
