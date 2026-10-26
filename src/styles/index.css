@@ -10,8 +10,11 @@
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
+  /* Rolagem suave só para quem não pediu menos movimento no sistema */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
 
   body {
