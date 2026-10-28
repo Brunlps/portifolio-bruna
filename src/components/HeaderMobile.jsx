@@ -23,8 +23,8 @@ const HeaderMobile = ({ activeId, theme, onToggleTheme }) => {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-30 flex h-16 items-center justify-between bg-zinc-50 px-4 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-200 lg:hidden">
-        <span>{profile.nome}</span>
+      <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-zinc-200 bg-zinc-50/80 px-4 text-zinc-900 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/80 dark:text-zinc-200 lg:hidden">
+        <span className="font-display text-2xl">{profile.nome}</span>
         <div className="flex items-center gap-4">
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
           <button
