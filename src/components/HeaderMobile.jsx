@@ -4,7 +4,7 @@ import NavContent from "./NavContent";
 import ThemeToggle from "./ThemeToggle";
 import { profile } from "../data/portfolio";
 
-const HeaderMobile = ({ theme, onToggleTheme }) => {
+const HeaderMobile = ({ activeId, theme, onToggleTheme }) => {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
@@ -57,7 +57,7 @@ const HeaderMobile = ({ theme, onToggleTheme }) => {
         <button onClick={close} aria-label="Fechar menu" className="mb-8">
           <FiX size={24} />
         </button>
-        <NavContent onNavigate={close} />
+        <NavContent activeId={activeId} onNavigate={close} />
       </aside>
     </>
   );
