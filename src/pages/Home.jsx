@@ -1,4 +1,3 @@
-import Sidebar from "../components/Sidebar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Stack from "../components/Stack";
@@ -10,7 +9,6 @@ import Contact from "../components/Contact";
 // scroll-mt-24 deixa um respiro no topo para o header não cobrir o título.
 const Home = () => (
   <>
-    <Sidebar />
     <section id="inicio" className="scroll-mt-24">
       <Hero />
     </section>
