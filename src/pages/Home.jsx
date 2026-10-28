@@ -4,8 +4,8 @@ import About from "../components/About";
 const Home = () => (
   <>
     <Sidebar />
-    <About />
-     {/*<Stack />
+    {/* <About />
+    <Stack />
     <Project />
     <Contact /> */}
   </>
