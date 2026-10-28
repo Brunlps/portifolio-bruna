@@ -2,7 +2,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { RxGithubLogo } from "react-icons/rx";
 import { FaLinkedin } from "react-icons/fa";
 
-const Sobre = () => {
+const About = () => {
     return (
         <>
             <div className="flex w-full flex-col h-screen bg-blue-900 dark:bg-zinc-900 mt-20 px-4">
@@ -35,4 +35,4 @@ const Sobre = () => {
     );
 }
 
-export default Sobre;
+export default About;

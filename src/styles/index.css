@@ -27,10 +27,6 @@
   }
 }
 
-section[id] {
-  scroll-margin-top: 4.5rem;
-}
-
 .no-scrollbar {
   scrollbar-width: none;
 }
