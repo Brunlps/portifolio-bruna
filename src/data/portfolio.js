@@ -60,18 +60,9 @@ export const stack = [
   { nome: "Git", icone: SiGit, categoria: "Ferramentas" },
 ];
 
-// GerFinance: app de finanças pessoais (Python/FastAPI)
 // FoxFit: acompanhamento fitness (Java/Spring Boot)
 // `demo` é null quando o projeto não tem versão publicada
 export const featuredProjects = [
-  {
-    slug: "gerfinance",
-    titulo: "GerFinance",
-    descricao: "TODO: descrição completa do GerFinance",
-    tecnologias: ["Python", "FastAPI"],
-    repo: "TODO: link do repositório do GerFinance",
-    demo: null,
-  },
   {
     slug: "foxfit",
     titulo: "FoxFit",
@@ -79,6 +70,22 @@ export const featuredProjects = [
     tecnologias: ["Java", "Spring Boot"],
     repo: "TODO: link do repositório do FoxFit",
     demo: null,
+  },
+  {
+    slug: "react-fakestore",
+    titulo: "React Fakestore",
+    descricao: "TODO: descrição completa do React Fakestore",
+    tecnologias: ["React", "JavaScript", "Tailwind CSS"],
+    repo: "TODO: link do repositório do React Fakestore",
+    demo: "https://projeto-filtrar-produtos-react.onrender.com",
+  },
+  {
+    slug: "meow-cafe",
+    titulo: "Meow Café",
+    descricao: "TODO: descrição completa do Meow Café (landing page)",
+    tecnologias: ["HTML", "CSS"],
+    repo: "TODO: link do repositório do Meow Café",
+    demo: "https://landing-page-s7iz.onrender.com",
   },
 ];
 
