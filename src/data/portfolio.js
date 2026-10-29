@@ -67,7 +67,7 @@ export const featuredProjects = [
     titulo: "Fashion",
     descricao: "TODO: landing page de e-commerce de moda, projeto em equipe",
     tecnologias: ["HTML", "Tailwind CSS"],
-    repo: "TODO: link do repositório do Fashion",
+    repo: "https://github.com/Brunlps/projeto-fashion",
     demo: "https://projeto-fashion-4mrh.onrender.com",
   },
   {
