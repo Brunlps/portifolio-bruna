@@ -60,10 +60,10 @@ const Hero = () => (
     <div className="flex justify-center lg:col-span-5">
       {/* width/height reservam o espaço da imagem antes de ela carregar (evita salto de layout) */}
       <img
-        src="/avatar.png"
+        src="/avatar.webp"
         alt={`Ilustração de ${profile.nome} tirando uma selfie no espelho`}
-        width="800"
-        height="1067"
+        width="432"
+        height="577"
         className="h-auto w-full max-w-sm rounded-2xl"
       />
     </div>
