@@ -75,7 +75,7 @@ export const featuredProjects = [
     titulo: "React Fakestore",
     descricao: "TODO: descrição completa do React Fakestore",
     tecnologias: ["React", "JavaScript", "Tailwind CSS"],
-    repo: "https://github.com/Brunlps/pagina-filtrar-produtos",
+    repo: "https://github.com/Brunlps/projeto-filtrar-produtos-react",
     demo: "https://projeto-filtrar-produtos-react.onrender.com",
   },
   {
