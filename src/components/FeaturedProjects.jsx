@@ -1,4 +1,5 @@
-import { FiArrowUpRight } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 import { featuredProjects } from "../data/portfolio";
 
 // Link só aparece se for uma URL de verdade (campos "TODO: ..." não viram link falso)
@@ -46,8 +47,8 @@ const FeaturedProjects = () => (
                   rel="noopener noreferrer"
                   className={estiloLink}
                 >
+                  <FaGithub aria-hidden="true" size={18} />
                   Código
-                  <FiArrowUpRight aria-hidden="true" size={18} />
                 </a>
               )}
               {ehUrl(demo) && (
@@ -57,8 +58,8 @@ const FeaturedProjects = () => (
                   rel="noopener noreferrer"
                   className={estiloLink}
                 >
+                  <FiExternalLink aria-hidden="true" size={18} />
                   Ver online
-                  <FiArrowUpRight aria-hidden="true" size={18} />
                 </a>
               )}
             </div>

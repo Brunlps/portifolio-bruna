@@ -60,23 +60,22 @@ export const stack = [
   { nome: "Git", icone: SiGit, categoria: "Ferramentas" },
 ];
 
-// FoxFit: acompanhamento fitness (Java/Spring Boot)
 // `demo` é null quando o projeto não tem versão publicada
 export const featuredProjects = [
   {
-    slug: "foxfit",
-    titulo: "FoxFit",
-    descricao: "TODO: descrição completa do FoxFit",
-    tecnologias: ["Java", "Spring Boot"],
-    repo: "TODO: link do repositório do FoxFit",
-    demo: null,
+    slug: "projeto-fashion",
+    titulo: "Fashion",
+    descricao: "TODO: landing page de e-commerce de moda, projeto em equipe",
+    tecnologias: ["HTML", "Tailwind CSS"],
+    repo: "TODO: link do repositório do Fashion",
+    demo: "https://projeto-fashion-4mrh.onrender.com",
   },
   {
     slug: "react-fakestore",
     titulo: "React Fakestore",
     descricao: "TODO: descrição completa do React Fakestore",
     tecnologias: ["React", "JavaScript", "Tailwind CSS"],
-    repo: "TODO: link do repositório do React Fakestore",
+    repo: "https://github.com/Brunlps/pagina-filtrar-produtos",
     demo: "https://projeto-filtrar-produtos-react.onrender.com",
   },
   {
@@ -84,7 +83,7 @@ export const featuredProjects = [
     titulo: "Meow Café",
     descricao: "TODO: descrição completa do Meow Café (landing page)",
     tecnologias: ["HTML", "CSS"],
-    repo: "TODO: link do repositório do Meow Café",
+    repo: "https://github.com/Brunlps/html-css-landpage",
     demo: "https://landing-page-s7iz.onrender.com",
   },
 ];
