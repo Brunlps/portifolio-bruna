@@ -44,6 +44,9 @@ export const navLinks = [
   { id: "contato", rotulo: "Contato", icone: FiMail },
 ];
 
+// Linha de apoio exibida abaixo do título da seção Stack
+export const stackIntro = "Tecnologias que uso no dia a dia, do backend ao frontend.";
+
 export const stack = [
   { nome: "Python", icone: SiPython, categoria: "Backend" },
   { nome: "FastAPI", icone: SiFastapi, categoria: "Backend" },
