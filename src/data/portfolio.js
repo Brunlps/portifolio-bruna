@@ -18,7 +18,7 @@ import {
 
 export const profile = {
   nome: "Bruna Lopes",
-  cargo: "Desenvolvedora Backend",
+  cargo: "Desenvolvedora Full Stack Júnior",
   bio: "Desenvolvo sistemas que organizam dados e interfaces que dão gosto de usar.",
   bioCompleta:
     "Comecei a programar com um objetivo bem concreto: criar a minha própria loja online. No caminho, descobri que gosto dos dois lados do desenvolvimento. No backend, me interesso por modelar e manipular dados com Python, FastAPI, Java e Spring Boot. No frontend, gosto de construir telas bonitas e fluidas com React e Tailwind. Hoje curso Análise e Desenvolvimento de Sistemas e sigo estudando JavaScript e React. Para clientes, crio soluções que melhoram a produtividade do dia a dia e landing pages para divulgar negócios e projetos.",
@@ -65,7 +65,7 @@ export const featuredProjects = [
   {
     slug: "projeto-fashion",
     titulo: "Fashion",
-    descricao: "TODO: landing page de e-commerce de moda, projeto em equipe",
+    descricao: "Landing page de e-commerce de moda feita em equipe com HTML e Tailwind CSS. Projeto de estudo, com conteúdo fictício.",
     tecnologias: ["HTML", "Tailwind CSS"],
     repo: "https://github.com/Brunlps/projeto-fashion",
     demo: "https://projeto-fashion-4mrh.onrender.com",
@@ -73,7 +73,7 @@ export const featuredProjects = [
   {
     slug: "react-fakestore",
     titulo: "React Fakestore",
-    descricao: "TODO: descrição completa do React Fakestore",
+    descricao: "Loja virtual em React que consome a Fake Store API e permite filtrar os produtos. Foco em componentes, estado e consumo de API.",
     tecnologias: ["React", "JavaScript", "Tailwind CSS"],
     repo: "https://github.com/Brunlps/projeto-filtrar-produtos-react",
     demo: "https://projeto-filtrar-produtos-react.onrender.com",
@@ -81,7 +81,7 @@ export const featuredProjects = [
   {
     slug: "meow-cafe",
     titulo: "Meow Café",
-    descricao: "TODO: descrição completa do Meow Café (landing page)",
+    descricao: "Landing page para um café fictício que recebe tutores de pets, com cardápio, delivery e reserva de brunch.",
     tecnologias: ["HTML", "CSS"],
     repo: "https://github.com/Brunlps/html-css-landpage",
     demo: "https://landing-page-s7iz.onrender.com",
