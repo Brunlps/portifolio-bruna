@@ -1,5 +1,4 @@
 // Todo o conteúdo do site fica aqui. Os componentes só leem estes dados.
-// Campos com "TODO: ..." ainda precisam ser preenchidos por Bruna.
 // Em `icone` guardamos o componente do react-icons (sem JSX), ex.: icone: FaGithub.
 // Quem usa renderiza assim: const Icone = item.icone; <Icone />
 
