@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Instruções locais do agente (não vai para o repositório)
+CLAUDE.md
