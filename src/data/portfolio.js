@@ -90,7 +90,12 @@ export const featuredProjects = [
 
 // whatsapp guarda só o número (DDI + DDD + número); o link wa.me é montado no componente
 export const contact = {
-  email: "TODO: e-mail",
-  whatsapp: "TODO: número só com dígitos, ex.: 5585999999999",
+  email: "brunadevs@yahoo.com",
+  whatsapp: "5585996337832",
+  mensagemWhatsapp:
+    "Olá, Bruna! Vi seu portfólio e gostaria de conversar sobre um projeto.",
+  titulo: "Vamos conversar",
+  texto:
+    "Tem um projeto ou uma dúvida? Mande uma mensagem que eu respondo com um orçamento.",
   formspreeId: "TODO: id do Formspree",
 };
