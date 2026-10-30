@@ -60,8 +60,8 @@ const GithubRepos = () => {
         </ul>
       )}
 
-      {/* Erro e lista vazia usam a mesma mensagem, com link para o perfil */}
-      {!carregando && (erro || repos.length === 0) && (
+      {/* Erro da API: mensagem de falha, com link para o perfil */}
+      {!carregando && erro && (
         <p className="text-zinc-600 dark:text-zinc-400">
           Não consegui carregar os repositórios agora.{" "}
           <a
@@ -71,6 +71,21 @@ const GithubRepos = () => {
             className={`font-semibold text-lime-700 hover:underline dark:text-lime-400 ${foco}`}
           >
             Veja todos no meu perfil do GitHub
+          </a>
+          .
+        </p>
+      )}
+
+      {/* API respondeu, mas sem repositórios para mostrar: não é uma falha */}
+      {!carregando && !erro && repos.length === 0 && (
+        <p>
+          <a
+            href={perfilGithub}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`font-semibold text-lime-700 hover:underline dark:text-lime-400 ${foco}`}
+          >
+            Veja todos os meus projetos no GitHub
           </a>
           .
         </p>
