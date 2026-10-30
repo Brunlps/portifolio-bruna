@@ -17,7 +17,7 @@ import {
 
 export const profile = {
   nome: "Bruna Lopes",
-  cargo: "Desenvolvedora Full Stack Júnior",
+  cargo: "Desenvolvedora Full Stack",
   bio: "Desenvolvo sistemas que organizam dados e interfaces que dão gosto de usar.",
   bioCompleta:
     "Comecei a programar com um objetivo bem concreto: criar a minha própria loja online. No caminho, descobri que gosto dos dois lados do desenvolvimento. No backend, me interesso por modelar e manipular dados com Python, FastAPI, Java e Spring Boot. No frontend, gosto de construir telas bonitas e fluidas com React e Tailwind. Hoje curso Análise e Desenvolvimento de Sistemas e sigo estudando JavaScript e React. Para clientes, crio soluções que melhoram a produtividade do dia a dia e landing pages para divulgar negócios e projetos.",
