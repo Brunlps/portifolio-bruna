@@ -1,9 +1,31 @@
 import Home from "../pages/Home";
+import HeaderMobile from "../components/HeaderMobile";
+import DockNav from "../components/DockNav";
+import Footer from "../components/Footer";
+import useTheme from "../hooks/useTheme";
+import useActiveSection from "../hooks/useActiveSection";
+import { navLinks } from "../data/portfolio";
 
-const PageLayout = () => (
-  <>
-    <Home />
-  </>
-);
+// Fora do componente de propósito: a referência não muda entre renders,
+// então o useEffect do useActiveSection não recria o observer à toa.
+const sectionIds = navLinks.map(({ id }) => id);
+
+// useTheme é chamado só aqui: o tema fica num único lugar e desce por props.
+const PageLayout = () => {
+  const { theme, toggleTheme } = useTheme();
+  const activeId = useActiveSection(sectionIds);
+
+  return (
+    <>
+      <HeaderMobile activeId={activeId} theme={theme} onToggleTheme={toggleTheme} />
+      <DockNav activeId={activeId} theme={theme} onToggleTheme={toggleTheme} />
+      <main>
+        <Home />
+      </main>
+      {/* O espaço inferior para o dock fica dentro do próprio Footer */}
+      <Footer />
+    </>
+  );
+};
 
 export default PageLayout;
