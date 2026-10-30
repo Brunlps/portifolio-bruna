@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="BL">
+  <rect width="32" height="32" rx="7" fill="#09090b"/>
+  <!-- Letras B e L desenhadas com traços (SVG de favicon não carrega fontes externas) -->
+  <g fill="none" stroke="#a3e635" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M7 8.5V23.5H11.5Q14.5 23.5 14.5 20.4Q14.5 17.4 11.5 16.4Q13.8 15.6 13.8 12.3Q13.8 8.5 10.8 8.5Z"/>
+    <path d="M19.5 8.5V23.5H26"/>
+  </g>
+</svg>

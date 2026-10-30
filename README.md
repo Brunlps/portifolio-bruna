@@ -2,7 +2,7 @@
 
 Portfólio pessoal de Bruna Lopes, desenvolvedora full stack júnior em Fortaleza, CE, para apresentar projetos a recrutadores e receber contatos de clientes de freela.
 
-**Site:** TODO (link do deploy)
+**Site:** https://portifolio-bruna.onrender.com
 
 ## Funcionalidades
 
