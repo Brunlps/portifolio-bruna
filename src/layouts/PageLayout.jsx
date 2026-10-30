@@ -1,6 +1,7 @@
 import Home from "../pages/Home";
 import HeaderMobile from "../components/HeaderMobile";
 import DockNav from "../components/DockNav";
+import Footer from "../components/Footer";
 import useTheme from "../hooks/useTheme";
 import useActiveSection from "../hooks/useActiveSection";
 import { navLinks } from "../data/portfolio";
@@ -18,10 +19,11 @@ const PageLayout = () => {
     <>
       <HeaderMobile activeId={activeId} theme={theme} onToggleTheme={toggleTheme} />
       <DockNav activeId={activeId} theme={theme} onToggleTheme={toggleTheme} />
-      {/* lg:pb-28 deixa espaço para o dock não cobrir o fim da página */}
-      <main className="lg:pb-28">
+      <main>
         <Home />
       </main>
+      {/* O espaço inferior para o dock fica dentro do próprio Footer */}
+      <Footer />
     </>
   );
 };
