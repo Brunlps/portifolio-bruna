@@ -3,7 +3,17 @@
 // Quem usa renderiza assim: const Icone = item.icone; <Icone />
 
 import { FaCss3Alt, FaGithub, FaJava, FaLinkedin } from "react-icons/fa";
-import { FiCode, FiFolder, FiHome, FiMail, FiUser } from "react-icons/fi";
+import {
+  FiBriefcase,
+  FiCode,
+  FiFolder,
+  FiHome,
+  FiLayout,
+  FiMail,
+  FiSettings,
+  FiShoppingBag,
+  FiUser,
+} from "react-icons/fi";
 import {
   SiFastapi,
   SiGit,
@@ -38,9 +48,32 @@ export const socials = [
 export const navLinks = [
   { id: "inicio", rotulo: "Início", icone: FiHome },
   { id: "sobre", rotulo: "Sobre", icone: FiUser },
+  { id: "servicos", rotulo: "Serviços", icone: FiBriefcase },
   { id: "stack", rotulo: "Ferramentas", icone: FiCode },
   { id: "projetos", rotulo: "Projetos", icone: FiFolder },
   { id: "contato", rotulo: "Contato", icone: FiMail },
+];
+
+// Cards da seção "Como posso ajudar" (id "servicos")
+export const servicos = [
+  {
+    titulo: "Landing page",
+    texto:
+      "Se você quer divulgar um produto, serviço ou evento com uma página bonita, que funcione no celular e leve o cliente até o seu WhatsApp.",
+    icone: FiLayout,
+  },
+  {
+    titulo: "Site com catálogo",
+    texto:
+      "Se você quer mostrar seus produtos on-line, com fotos, preços e busca, sem depender só das redes sociais.",
+    icone: FiShoppingBag,
+  },
+  {
+    titulo: "Sistema sob medida",
+    texto:
+      "Se você perde tempo com planilhas, anotações ou tarefas repetidas e quer tudo organizado num lugar só.",
+    icone: FiSettings,
+  },
 ];
 
 // Linha de apoio exibida abaixo do título da seção Ferramentas (id "stack")

@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Servicos from "../components/Servicos";
 import Stack from "../components/Stack";
 import FeaturedProjects from "../components/FeaturedProjects";
 import GithubRepos from "../components/GithubRepos";
@@ -14,6 +15,9 @@ const Home = () => (
     </section>
     <section id="sobre" className="scroll-mt-24">
       <About />
+    </section>
+    <section id="servicos" className="scroll-mt-24">
+      <Servicos />
     </section>
     <section id="stack" className="scroll-mt-24">
       <Stack />
