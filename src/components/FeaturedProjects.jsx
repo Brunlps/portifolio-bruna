@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import { featuredProjects } from "../data/portfolio";
+import { featuredProjects, projetosIntro } from "../data/portfolio";
 
 // Link só aparece se for uma URL de verdade (campos "TODO: ..." não viram link falso)
 const ehUrl = (valor) => typeof valor === "string" && valor.startsWith("http");
@@ -10,7 +10,10 @@ const estiloLink =
 
 const FeaturedProjects = () => (
   <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-12">
-    <h2 className="font-display text-5xl sm:text-6xl">Projetos</h2>
+    <div className="flex flex-col gap-2">
+      <h2 className="font-display text-5xl sm:text-6xl">Projetos</h2>
+      <p className="text-zinc-600 dark:text-zinc-400">{projetosIntro}</p>
+    </div>
 
     {/* 1 coluna no mobile, 2 em md e 3 em lg */}
     <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">

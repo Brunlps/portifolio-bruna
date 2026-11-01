@@ -4,7 +4,7 @@ import { stack, stackIntro } from "../data/portfolio";
 const Stack = () => (
   <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-12">
     <div className="flex flex-col gap-2">
-      <h2 className="font-display text-5xl sm:text-6xl">Stack</h2>
+      <h2 className="font-display text-5xl sm:text-6xl">Ferramentas</h2>
       <p className="text-zinc-600 dark:text-zinc-400">{stackIntro}</p>
     </div>
 

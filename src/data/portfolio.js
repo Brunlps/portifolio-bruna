@@ -18,11 +18,11 @@ import {
 export const profile = {
   nome: "Bruna Lopes",
   cargo: "Desenvolvedora Full Stack",
-  bio: "Desenvolvo sistemas que organizam dados e interfaces que dão gosto de usar.",
+  bio: "Crio sites e sistemas que ajudam o seu negócio a ser encontrado, atender melhor e ganhar tempo.",
   bioCompleta:
-    "Comecei a programar com um objetivo bem concreto: criar a minha própria loja online. No caminho, descobri que gosto dos dois lados do desenvolvimento. No backend, me interesso por modelar e manipular dados com Python, FastAPI, Java e Spring Boot. No frontend, gosto de construir telas bonitas e fluidas com React e Tailwind. Hoje curso Análise e Desenvolvimento de Sistemas e sigo estudando JavaScript e React. Para clientes, crio soluções que melhoram a produtividade do dia a dia e landing pages para divulgar negócios e projetos.",
+    "Comecei a programar porque queria criar a minha própria loja online. Por isso entendo, na prática, o que um negócio precisa na internet: ser fácil de encontrar, passar confiança e funcionar bem no celular. Hoje crio landing pages para divulgar produtos e serviços, sites com catálogo e sistemas sob medida que organizam o dia a dia, como cadastros, controle financeiro e relatórios. Explico cada etapa sem termos técnicos, até o projeto estar no ar.",
   localizacao: "Fortaleza, CE",
-  disponibilidade: "Disponível para vagas e freelas",
+  disponibilidade: "Disponível para novos projetos",
 };
 
 export const socials = [
@@ -38,13 +38,14 @@ export const socials = [
 export const navLinks = [
   { id: "inicio", rotulo: "Início", icone: FiHome },
   { id: "sobre", rotulo: "Sobre", icone: FiUser },
-  { id: "stack", rotulo: "Stack", icone: FiCode },
+  { id: "stack", rotulo: "Ferramentas", icone: FiCode },
   { id: "projetos", rotulo: "Projetos", icone: FiFolder },
   { id: "contato", rotulo: "Contato", icone: FiMail },
 ];
 
-// Linha de apoio exibida abaixo do título da seção Stack
-export const stackIntro = "Tecnologias que uso no dia a dia, do backend ao frontend.";
+// Linha de apoio exibida abaixo do título da seção Ferramentas (id "stack")
+export const stackIntro =
+  "As ferramentas que uso para construir sites rápidos, seguros e fáceis de manter.";
 
 export const stack = [
   { nome: "Python", icone: SiPython, categoria: "Backend" },
@@ -59,12 +60,16 @@ export const stack = [
   { nome: "Git", icone: SiGit, categoria: "Ferramentas" },
 ];
 
+// Linha de apoio exibida abaixo do título da seção Projetos
+export const projetosIntro =
+  "Alguns trabalhos que mostram o que posso criar para o seu negócio: sites que apresentam a sua marca, funcionam bem no celular e ajudam o cliente a chegar até você.";
+
 // `demo` é null quando o projeto não tem versão publicada
 export const featuredProjects = [
   {
     slug: "projeto-fashion",
     titulo: "Fashion",
-    descricao: "Landing page de e-commerce de moda feita em equipe com HTML e Tailwind CSS. Projeto de estudo, com conteúdo fictício.",
+    descricao: "Página de apresentação para uma loja de roupas: mostra as novidades, destaca as promoções e convida o visitante a se cadastrar para receber ofertas. Projeto de exemplo, feito em equipe.",
     tecnologias: ["HTML", "Tailwind CSS"],
     repo: "https://github.com/Brunlps/projeto-fashion",
     demo: "https://projeto-fashion-4mrh.onrender.com",
@@ -72,7 +77,7 @@ export const featuredProjects = [
   {
     slug: "react-fakestore",
     titulo: "React Fakestore",
-    descricao: "Loja virtual em React que consome a Fake Store API e permite filtrar os produtos. Foco em componentes, estado e consumo de API.",
+    descricao: "Vitrine de loja virtual em que o cliente encontra os produtos com facilidade, filtrando por categoria. Ideal para quem quer mostrar um catálogo on-line.",
     tecnologias: ["React", "JavaScript", "Tailwind CSS"],
     repo: "https://github.com/Brunlps/projeto-filtrar-produtos-react",
     demo: "https://projeto-filtrar-produtos-react.onrender.com",
@@ -80,7 +85,7 @@ export const featuredProjects = [
   {
     slug: "meow-cafe",
     titulo: "Meow Café",
-    descricao: "Landing page para um café fictício que recebe tutores de pets, com cardápio, delivery e reserva de brunch.",
+    descricao: "Site para um café: apresenta o cardápio com preços, explica como pedir pelo delivery e facilita a reserva. Abre bem no celular, onde a maioria dos clientes procura. Projeto de exemplo.",
     tecnologias: ["HTML", "CSS"],
     repo: "https://github.com/Brunlps/html-css-landpage",
     demo: "https://landing-page-s7iz.onrender.com",
@@ -95,6 +100,6 @@ export const contact = {
     "Olá, Bruna! Vi seu portfólio e gostaria de conversar sobre um projeto.",
   titulo: "Vamos conversar",
   texto:
-    "Tem um projeto ou uma dúvida? Mande uma mensagem que eu respondo com um orçamento.",
+    "Precisa de um site para divulgar o seu negócio ou de um sistema para organizar o dia a dia? Me conte a sua ideia que eu respondo com um orçamento sem compromisso.",
   formspreeId: "mdeellkb",
 };
