@@ -8,6 +8,17 @@ const Hero = () => (
   // Mobile: 1 coluna (texto e depois imagem). lg: 12 colunas, texto em 7 e imagem em 5
   <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 px-4 py-12 lg:grid-cols-12 lg:gap-12">
     <div className="flex flex-col items-start gap-6 lg:col-span-7">
+      {/* Foto de perfil redonda, só no mobile */}
+      <div className="size-24 overflow-hidden rounded-full border-2 border-lime-700 bg-zinc-200 dark:border-lime-400 dark:bg-zinc-800 lg:hidden">
+        <img
+          src="/avatar.webp"
+          alt={`Ilustração de ${profile.nome} tirando uma selfie no espelho`}
+          width="96"
+          height="96"
+          className="h-full w-full object-cover object-top"
+        />
+      </div>
+
       {/* Selo de disponibilidade: a bolinha pulsa, exceto para quem pediu menos movimento */}
       <p className="inline-flex items-center gap-2 rounded-full border border-zinc-200 px-4 py-1.5 text-sm text-zinc-700 dark:border-zinc-800 dark:text-zinc-300">
         <span
@@ -57,7 +68,7 @@ const Hero = () => (
       </a>
     </div>
 
-    <div className="flex justify-center lg:col-span-5">
+    <div className="hidden justify-center lg:col-span-5 lg:flex">
       {/* width/height reservam o espaço da imagem antes de ela carregar (evita salto de layout) */}
       <img
         src="/avatar.webp"
