@@ -19,18 +19,9 @@ const Hero = () => (
         />
       </div>
 
-      {/* Selo de disponibilidade: a bolinha pulsa, exceto para quem pediu menos movimento */}
-      <p className="inline-flex items-center gap-2 rounded-full border border-zinc-200 px-4 py-1.5 text-sm text-zinc-700 dark:border-zinc-800 dark:text-zinc-300">
-        <span
-          aria-hidden="true"
-          className="size-2 animate-pulse rounded-full bg-lime-700 motion-reduce:animate-none dark:bg-lime-400"
-        />
-        {profile.disponibilidade}
-      </p>
-
       <h1 className="font-display text-6xl leading-none sm:text-7xl lg:text-8xl">
         <span className="block">Olá, eu sou</span>
-        <span className="block text-lime-700 dark:text-lime-400">
+        <span className="block animate-pulse text-lime-700 motion-reduce:animate-none dark:text-lime-400">
           {profile.nome}
         </span>
       </h1>
