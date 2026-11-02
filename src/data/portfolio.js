@@ -119,9 +119,9 @@ export const featuredProjects = [
     slug: "meow-cafe",
     titulo: "Meow Café",
     descricao: "Site para um café: apresenta o cardápio com preços, explica como pedir pelo delivery e facilita a reserva. Abre bem no celular, onde a maioria dos clientes procura. Projeto de exemplo.",
-    tecnologias: ["HTML", "CSS"],
+    tecnologias: ["Tailwind CSS", "JavaScript", "React"],
     repo: "https://github.com/Brunlps/html-css-landpage",
-    demo: "https://landing-page-s7iz.onrender.com",
+    demo: "https://meow-cafe-rgj2.onrender.com/",
   },
 ];
 
